@@ -49,8 +49,8 @@ const Checkout = () => {
     // Store order data and navigate to confirmation
     localStorage.setItem('orderData', JSON.stringify({
       ...formData,
-      orderNumber: `TP${Date.now()}`,
-      total: 299,
+      orderNumber: `SC${Date.now()}`,
+      total: 89,
       orderDate: new Date().toISOString()
     }));
 
@@ -83,7 +83,7 @@ const Checkout = () => {
                             name="firstName"
                             value={formData.firstName}
                             onChange={handleInputChange}
-                            placeholder="John"
+                            placeholder="Sarah"
                             className="mt-1"
                           />
                         </div>
@@ -94,7 +94,7 @@ const Checkout = () => {
                             name="lastName"
                             value={formData.lastName}
                             onChange={handleInputChange}
-                            placeholder="Doe"
+                            placeholder="Johnson"
                             className="mt-1"
                           />
                         </div>
@@ -108,7 +108,7 @@ const Checkout = () => {
                           type="email"
                           value={formData.email}
                           onChange={handleInputChange}
-                          placeholder="john.doe@email.com"
+                          placeholder="sarah@email.com"
                           className="mt-1"
                         />
                       </div>
@@ -133,7 +133,7 @@ const Checkout = () => {
                           name="address"
                           value={formData.address}
                           onChange={handleInputChange}
-                          placeholder="123 Main Street"
+                          placeholder="123 Fashion Avenue"
                           className="mt-1"
                         />
                       </div>
@@ -174,8 +174,8 @@ const Checkout = () => {
                         </div>
                       </div>
 
-                      <Button type="submit" size="lg" className="w-full bg-blue-600 hover:bg-blue-700">
-                        Place Order - $299
+                      <Button type="submit" size="lg" className="w-full bg-rose-600 hover:bg-rose-700">
+                        Place Order - $89
                       </Button>
                     </form>
                   </CardContent>
@@ -191,22 +191,22 @@ const Checkout = () => {
                   <CardContent className="space-y-4">
                     <div className="flex items-center space-x-4">
                       <img 
-                        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
-                        alt="TechPro Wireless"
+                        src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                        alt="Elegant Summer Dress"
                         className="w-16 h-16 object-cover rounded-lg"
                       />
                       <div className="flex-1">
-                        <h3 className="font-semibold">TechPro Wireless</h3>
-                        <p className="text-sm text-gray-600">Premium Wireless Headphones</p>
-                        <p className="text-sm">Qty: 1</p>
+                        <h3 className="font-semibold">Elegant Summer Dress</h3>
+                        <p className="text-sm text-gray-600">Premium Cotton Blend</p>
+                        <p className="text-sm">Size: M | Qty: 1</p>
                       </div>
-                      <p className="font-semibold">$299</p>
+                      <p className="font-semibold">$89</p>
                     </div>
 
                     <div className="border-t pt-4 space-y-2">
                       <div className="flex justify-between">
                         <span>Subtotal</span>
-                        <span>$299.00</span>
+                        <span>$89.00</span>
                       </div>
                       <div className="flex justify-between">
                         <span>Shipping</span>
@@ -219,27 +219,27 @@ const Checkout = () => {
                       <div className="border-t pt-2">
                         <div className="flex justify-between font-bold text-lg">
                           <span>Total</span>
-                          <span>$299.00</span>
+                          <span>$89.00</span>
                         </div>
                       </div>
                     </div>
 
-                    <div className="bg-blue-50 p-4 rounded-lg">
+                    <div className="bg-rose-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">What's Included:</h4>
                       <ul className="text-sm space-y-1">
-                        <li>• TechPro Wireless Headphones</li>
-                        <li>• Premium carrying case</li>
-                        <li>• USB-C charging cable</li>
-                        <li>• Audio cable (3.5mm)</li>
-                        <li>• Quick start guide</li>
-                        <li>• 2-year warranty</li>
+                        <li>• Premium summer dress</li>
+                        <li>• Elegant gift packaging</li>
+                        <li>• Care instructions guide</li>
+                        <li>• Size exchange guarantee</li>
+                        <li>• 30-day return policy</li>
+                        <li>• Style guide recommendations</li>
                       </ul>
                     </div>
 
                     <div className="bg-green-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-green-800 mb-2">Secure Payment</h4>
                       <p className="text-sm text-green-700">
-                        Your payment information is encrypted and secure. We accept all major credit cards and PayPal.
+                        Your payment information is encrypted and secure. We accept all major credit cards, PayPal, and digital wallets.
                       </p>
                     </div>
                   </CardContent>

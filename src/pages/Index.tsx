@@ -10,30 +10,30 @@ const Index = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-br from-blue-50 to-indigo-100">
+      <section className="pt-24 pb-16 bg-gradient-to-br from-rose-50 to-pink-100">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  TechPro
-                  <span className="block text-blue-600">Wireless</span>
+                  Saina
+                  <span className="block text-rose-600">Clothings</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Experience professional-grade audio with our premium wireless headphones. 
-                  Designed for creators, professionals, and audiophiles who demand excellence.
+                  Discover our premium collection of modern fashion. Designed for those who appreciate 
+                  quality craftsmanship, comfort, and timeless style.
                 </p>
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/checkout">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg">
-                    Buy Now - $299
+                  <Button size="lg" className="bg-rose-600 hover:bg-rose-700 text-white px-8 py-4 text-lg">
+                    Shop Collection - $89
                   </Button>
                 </Link>
                 <Link to="/product">
                   <Button variant="outline" size="lg" className="border-gray-300 px-8 py-4 text-lg">
-                    Learn More
+                    View Details
                   </Button>
                 </Link>
               </div>
@@ -42,8 +42,8 @@ const Index = () => {
             <div className="relative">
               <div className="bg-white rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-300">
                 <img 
-                  src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="TechPro Wireless Headphones"
+                  src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  alt="Saina Clothings Premium Collection"
                   className="w-full h-auto object-cover rounded-lg"
                 />
               </div>
@@ -56,35 +56,35 @@ const Index = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose TechPro?</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Saina?</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Engineered with cutting-edge technology and premium materials for the ultimate audio experience.
+              Experience the perfect blend of comfort, style, and quality craftsmanship in every piece.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-6 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🎵</span>
+              <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">👗</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Studio Quality</h3>
-              <p className="text-gray-600">Professional-grade audio drivers deliver crystal-clear sound across all frequencies.</p>
+              <h3 className="text-xl font-semibold mb-2">Premium Quality</h3>
+              <p className="text-gray-600">Carefully selected fabrics and materials for maximum comfort and durability.</p>
             </div>
             
             <div className="text-center p-6 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🔋</span>
+              <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">✨</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">30-Hour Battery</h3>
-              <p className="text-gray-600">Extended battery life keeps you connected all day without interruption.</p>
+              <h3 className="text-xl font-semibold mb-2">Modern Design</h3>
+              <p className="text-gray-600">Contemporary styles that effortlessly blend with your lifestyle and personality.</p>
             </div>
             
             <div className="text-center p-6 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">☁️</span>
+              <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">💫</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Cloud Comfort</h3>
-              <p className="text-gray-600">Memory foam padding and adjustable headband for all-day wearing comfort.</p>
+              <h3 className="text-xl font-semibold mb-2">Perfect Fit</h3>
+              <p className="text-gray-600">Thoughtfully designed cuts that flatter every body type and ensure all-day comfort.</p>
             </div>
           </div>
         </div>
@@ -105,13 +105,13 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
-                "These headphones are absolutely incredible. The sound quality is unmatched and they're so comfortable I forget I'm wearing them."
+                "The quality is outstanding! The fabric feels amazing and the fit is perfect. Definitely my new favorite clothing brand."
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-gray-300 rounded-full mr-3"></div>
                 <div>
-                  <p className="font-semibold">Sarah Johnson</p>
-                  <p className="text-sm text-gray-500">Music Producer</p>
+                  <p className="font-semibold">Emma Wilson</p>
+                  <p className="text-sm text-gray-500">Fashion Blogger</p>
                 </div>
               </div>
             </div>
@@ -123,13 +123,13 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
-                "Perfect for my daily commute and work calls. The noise cancellation is a game-changer."
+                "Love the modern designs and attention to detail. The clothes are comfortable and stylish - exactly what I was looking for."
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-gray-300 rounded-full mr-3"></div>
                 <div>
-                  <p className="font-semibold">Mike Chen</p>
-                  <p className="text-sm text-gray-500">Software Engineer</p>
+                  <p className="font-semibold">Maya Patel</p>
+                  <p className="text-sm text-gray-500">Business Executive</p>
                 </div>
               </div>
             </div>
@@ -141,13 +141,13 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
-                "Best investment I've made for my home studio. The clarity and detail in the audio is phenomenal."
+                "Fast shipping and excellent customer service. The dress fits perfectly and the quality exceeded my expectations."
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-gray-300 rounded-full mr-3"></div>
                 <div>
-                  <p className="font-semibold">Alex Rivera</p>
-                  <p className="text-sm text-gray-500">Podcaster</p>
+                  <p className="font-semibold">Sophia Chen</p>
+                  <p className="text-sm text-gray-500">Marketing Director</p>
                 </div>
               </div>
             </div>
@@ -156,15 +156,15 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-rose-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Experience TechPro?</h2>
-          <p className="text-xl mb-8 text-blue-100">
-            Join thousands of satisfied customers who've upgraded their audio experience.
+          <h2 className="text-3xl font-bold mb-4">Ready to Elevate Your Style?</h2>
+          <p className="text-xl mb-8 text-rose-100">
+            Join thousands of satisfied customers who've discovered their perfect style with Saina Clothings.
           </p>
           <Link to="/checkout">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold">
-              Order Now
+            <Button size="lg" className="bg-white text-rose-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold">
+              Shop Now
             </Button>
           </Link>
         </div>
