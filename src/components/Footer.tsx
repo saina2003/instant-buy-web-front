@@ -1,5 +1,5 @@
 
-import { Mail, Shopping-cart, Credit-card } from "lucide-react";
+import { Mail, ShoppingCart, CreditCard } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -30,11 +30,11 @@ const Footer = () => {
                 <span className="text-gray-300">support@techpro.com</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Shopping-cart className="w-4 h-4" />
+                <ShoppingCart className="w-4 h-4" />
                 <span className="text-gray-300">Free shipping worldwide</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Credit-card className="w-4 h-4" />
+                <CreditCard className="w-4 h-4" />
                 <span className="text-gray-300">Secure payments</span>
               </div>
             </div>

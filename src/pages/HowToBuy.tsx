@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Credit-card, Shopping-cart, Mail } from "lucide-react";
+import { CreditCard, ShoppingCart, Mail } from "lucide-react";
 
 const HowToBuy = () => {
   return (
@@ -89,7 +89,7 @@ const HowToBuy = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <div className="flex items-center mb-4">
-                    <Credit-card className="w-8 h-8 text-blue-600 mr-3" />
+                    <CreditCard className="w-8 h-8 text-blue-600 mr-3" />
                     <h3 className="text-xl font-semibold">Credit & Debit Cards</h3>
                   </div>
                   <p className="text-gray-600 mb-4">
@@ -110,7 +110,7 @@ const HowToBuy = () => {
 
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <div className="flex items-center mb-4">
-                    <Shopping-cart className="w-8 h-8 text-blue-600 mr-3" />
+                    <ShoppingCart className="w-8 h-8 text-blue-600 mr-3" />
                     <h3 className="text-xl font-semibold">PayPal</h3>
                   </div>
                   <p className="text-gray-600 mb-4">
